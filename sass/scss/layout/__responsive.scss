@@ -1,0 +1,79 @@
+  //responsive tienda
+
+  @media screen and (max-width: 420px){
+    .boxTienda{
+      display: grid;
+    }
+    div{
+      width: auto;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .encabTienda{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: stretch;
+      width: 380px;
+      text-align: center;
+      h2{
+        font-size: 34px;
+      }
+      ul{
+        display: grid;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1024px){
+    .boxTienda{
+      display: grid;
+    }
+    
+  }
+
+//fin responsive tienda
+
+//responsive productos
+
+@media screen and(max-width: 420px){
+  .containerProduc{
+    display: grid;
+  }
+  div{
+    width: 100%!important;
+  }
+}
+
+//fin responsive productos
+
+//responsive index
+
+@media screen and(max-width: 420px){
+  .divGaleria{
+    display: grid;
+    .divGaleria__left{
+      visibility: hidden;
+    }
+    .divGaleria__right{
+      visibility: hidden;
+    }
+    .divGaleria__center{
+      position: absolute;
+    }
+    img{
+      width: 100%;
+    }
+  }
+
+  .cajaBig{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 700px;
+  }
+}
+
