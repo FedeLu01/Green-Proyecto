@@ -10,7 +10,8 @@ ehthumbs.db
 ehthumbs_vista.db
 
 #Ignorar node modules
-.node_modules/
+node_modules/
+jspm_packages/
 
 # Dump file
 *.stackdump
