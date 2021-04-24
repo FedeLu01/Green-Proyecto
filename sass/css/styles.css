@@ -244,7 +244,6 @@ FIN IMG****/
 .boxReceta {
   text-align: center;
   display: grid;
-  background-color: #dee2e6;
   color: #212529; }
   .boxReceta .boxReceta__img {
     display: flex;
@@ -387,3 +386,6 @@ FIN RESPONSIVE RECETAS
   margin: 0;
   padding: 0;
   background-color: #495057; }
+
+body {
+  padding: 0.7%; }
