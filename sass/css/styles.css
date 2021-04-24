@@ -4,13 +4,13 @@
   justify-content: space-around; }
   .divGaleria img {
     margin-top: 30px;
-    width: 500px;
-    height: 500px;
+    width: 370px;
+    height: 370px;
     border-radius: 30px; }
 
 .divGaleria__left:hover {
   transition: ease 0.3s;
-  transform: scale(1.4);
+  transform: scale(1.5);
   z-index: 1; }
 
 .divGaleria__center:hover {
@@ -20,7 +20,7 @@
 
 .divGaleria__right:hover {
   transition: ease 0.3s;
-  transform: scale(1.25);
+  transform: scale(1.5);
   z-index: 1; }
 
 .cajaBig {
