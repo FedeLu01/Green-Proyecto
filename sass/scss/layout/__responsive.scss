@@ -77,3 +77,39 @@
   }
 }
 
+/***********
+RESPONSIVE NOSOTROS
+******************/
+
+@media screen and(max-width: 420px)
+{
+  .boxNosotros
+  {
+    display: grid;
+      h2
+      {
+        justify-content: center;
+      }
+  }
+
+  .parrafNosotros
+  {
+    display: grid;
+    justify-content: center;
+    p
+    {
+      width: 100%;
+    }
+  }
+
+  .logoFull
+  {
+    display: grid;
+    img
+    {
+      width: 250px!important;
+      height: 250px!important;
+      justify-content: center;
+    }
+  }
+}

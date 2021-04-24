@@ -237,6 +237,60 @@ h2 {
     position: absolute;
     top: 700px; } }
 
+/***********
+RESPONSIVE NOSOTROS
+******************/
+@media screen and (max-width: 420px) {
+  .boxNosotros {
+    display: grid; }
+    .boxNosotros h2 {
+      justify-content: center; }
+  .parrafNosotros {
+    display: grid;
+    justify-content: center; }
+    .parrafNosotros p {
+      width: 100%; }
+  .logoFull {
+    display: grid; }
+    .logoFull img {
+      width: 250px !important;
+      height: 250px !important;
+      justify-content: center; } }
+
+/* PARRAFO  ********
+********************
+********************/
+.boxNosotros {
+  text-align: center; }
+  .boxNosotros h2 {
+    font-size: 70px; }
+  .boxNosotros .parrafNosotros {
+    text-align: center; }
+    .boxNosotros .parrafNosotros p {
+      font-size: 22px;
+      background-color: #e9ecef;
+      color: #212529; }
+    .boxNosotros .parrafNosotros .finalParraf {
+      font-weight: bold;
+      font-size: 26px;
+      color: #212529; }
+
+/************
+**FIN PARRAFO
+************/
+/*IMG******
+**********/
+.logoFull {
+  display: flex;
+  justify-content: center; }
+  .logoFull img {
+    margin-top: 30px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%; }
+
+/**********
+FIN IMG****/
 * {
   font-family: Roboto, sans-serif;
   margin: 0;
