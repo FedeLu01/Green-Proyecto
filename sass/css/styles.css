@@ -53,102 +53,6 @@ DIV GALERIA
     background-color: inherit; }
 
 /********CAJA BIG FIN**********/
-/******RESPONSIVE TIENDA********/
-@media screen and (max-width: 420px) {
-  .boxTienda {
-    display: grid; }
-  div {
-    width: auto;
-    height: auto;
-    margin-top: 20px; }
-  .encabTienda {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 380px;
-    text-align: center; }
-    .encabTienda h2 {
-      font-size: 34px; }
-    .encabTienda ul {
-      display: grid; } }
-
-@media screen and (max-width: 1024px) {
-  .boxTienda {
-    display: grid; } }
-
-/*****FIN RESPONSIVE TIENDA*/
-/*****RESPONSIVE PRODUCTOS***/
-@media screen and (max-width: 420px) {
-  .containerProduc {
-    display: grid; }
-  div {
-    width: 100% !important; } }
-
-/****************FIN
-RESPONSIVE PRODUCTOS
-*******************/
-/***************
-RESPONSIVE INDEX
-***************/
-@media screen and (max-width: 420px) {
-  .divGaleria {
-    display: grid; }
-    .divGaleria .divGaleria__left {
-      visibility: hidden; }
-    .divGaleria .divGaleria__right {
-      visibility: hidden; }
-    .divGaleria .divGaleria__center {
-      position: absolute; }
-    .divGaleria img {
-      width: 100%; }
-  .cajaBig {
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    position: absolute;
-    top: 700px; } }
-
-/*************
-FIN RESPONSIVE 
-INDEX********/
-/******************
-RESPONSIVE NOSOTROS
-******************/
-@media screen and (max-width: 420px) {
-  .boxNosotros {
-    display: grid; }
-    .boxNosotros h2 {
-      justify-content: center; }
-  .parrafNosotros {
-    display: grid;
-    justify-content: center; }
-    .parrafNosotros p {
-      width: 100%; }
-  .logoFull {
-    display: grid; }
-    .logoFull img {
-      width: 250px !important;
-      height: 250px !important;
-      justify-content: center; } }
-
-/**********************
-FIN RESPONSIVE NOSOTROS
-**********************/
-/**********************
-RESPONSIVE RECETAS*****/
-@media screen and (max-width: 420px) {
-  .boxReceta {
-    display: grid;
-    justify-content: center; }
-    .boxReceta .boxReceta__img img {
-      width: 100% !important;
-      height: 200px !important; } }
-
-/********************
-FIN RESPONSIVE RECETAS
-**********************/
 /**************
 NAV BAR********/
 li, a, button {
@@ -382,6 +286,102 @@ FIN IMG****/
     font-size: 22px; }
 
 /*******FIN BOX RECETA*****/
+/******RESPONSIVE TIENDA********/
+@media screen and (max-width: 420px) {
+  .boxTienda {
+    display: grid; }
+  div {
+    width: auto;
+    height: auto;
+    margin-top: 20px; }
+  .encabTienda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 380px;
+    text-align: center; }
+    .encabTienda h2 {
+      font-size: 34px; }
+    .encabTienda ul {
+      display: grid; } }
+
+@media screen and (max-width: 1024px) {
+  .boxTienda {
+    display: grid; } }
+
+/*****FIN RESPONSIVE TIENDA*/
+/*****RESPONSIVE PRODUCTOS***/
+@media screen and (max-width: 420px) {
+  .containerProduc {
+    display: grid; }
+  div {
+    width: 100% !important; } }
+
+/****************FIN
+RESPONSIVE PRODUCTOS
+*******************/
+/***************
+RESPONSIVE INDEX
+***************/
+@media screen and (max-width: 420px) {
+  .divGaleria {
+    display: grid; }
+    .divGaleria .divGaleria__left {
+      visibility: hidden; }
+    .divGaleria .divGaleria__right {
+      visibility: hidden; }
+    .divGaleria .divGaleria__center {
+      position: absolute; }
+    .divGaleria img {
+      width: 100%; }
+  .cajaBig {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 700px; } }
+
+/*************
+FIN RESPONSIVE 
+INDEX********/
+/******************
+RESPONSIVE NOSOTROS
+******************/
+@media screen and (max-width: 420px) {
+  .boxNosotros {
+    display: grid; }
+    .boxNosotros h2 {
+      justify-content: center; }
+  .parrafNosotros {
+    display: grid;
+    justify-content: center; }
+    .parrafNosotros p {
+      width: 100%; }
+  .logoFull {
+    display: grid; }
+    .logoFull img {
+      width: 250px !important;
+      height: 250px !important;
+      justify-content: center; } }
+
+/**********************
+FIN RESPONSIVE NOSOTROS
+**********************/
+/**********************
+RESPONSIVE RECETAS*****/
+@media screen and (max-width: 420px) {
+  .boxReceta {
+    display: grid;
+    justify-content: center; }
+    .boxReceta .boxReceta__img img {
+      width: 100% !important;
+      height: 200px !important; } }
+
+/********************
+FIN RESPONSIVE RECETAS
+**********************/
 * {
   font-family: Roboto, sans-serif;
   margin: 0;
