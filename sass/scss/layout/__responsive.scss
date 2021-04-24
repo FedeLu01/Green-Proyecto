@@ -129,3 +129,27 @@ RESPONSIVE NOSOTROS
 /**********************
 FIN RESPONSIVE NOSOTROS
 **********************/
+
+/**********************
+RESPONSIVE RECETAS*****/
+
+@media screen and(max-width: 420px){
+  .boxReceta
+  {
+    display: grid;
+    justify-content: center;
+
+      .boxReceta__img
+      {
+        img
+        {
+          width: 100%!important;
+          height: 200px!important;
+        }
+      }
+  }
+}
+
+/********************
+FIN RESPONSIVE RECETAS
+**********************/

@@ -1,0 +1,87 @@
+/*****BOX RECETA******/
+
+.boxReceta
+{
+    text-align: center;
+    display: grid;
+    background-color: #dee2e6;
+    color: #212529;
+
+        .boxReceta__img
+        {
+            display: flex;
+            justify-content:space-around;
+            
+            img
+            {
+                width: 1024px;
+                height: auto;
+                margin-bottom: 50px;
+                border-radius: 50%;
+            }
+            img:hover
+            {
+                transform: scale(1.3);
+                transition: all ease 0.7s;
+                border: 10px solid #dee2e6;
+                
+            }
+        }
+
+        .boxReceta__intro
+        {
+            justify-content: center;
+                p
+                {
+                    background-color: #dee2e6;
+                    font-size: 22px;
+                    color: #212529;
+                }
+                h4
+                {
+                    color: #212529;
+                    background-color: #dee2e6;
+                    font-size: 44px;
+                }
+        }
+
+        .boxReceta__ingredientes
+        {
+            h6
+            {
+                background-color: #dee2e6;
+                color: #212529;
+                font-size: 32px;
+            }
+            ul
+            {
+                li
+                {
+                    background-color: #dee2e6;
+                    color: #212529;
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .boxReceta__prep
+        {
+            h6
+            {
+                background-color: #dee2e6;
+                 color: #212529;
+                 font-size: 28px;
+            }
+            p
+            {
+                background-color: #dee2e6;
+                color: #212529;
+                font-size: 22px;
+            }
+        }
+
+
+       
+    }
+
+/*******FIN BOX RECETA*****/
