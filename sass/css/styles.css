@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/**********
+DIV GALERIA
+**********/
 .divGaleria {
   display: flex;
   justify-content: space-around; }
@@ -23,6 +26,8 @@
   transform: scale(1.5);
   z-index: 1; }
 
+/******DIV GALERIA FIN********/
+/*****CAJA BIG**********/
 .cajaBig {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #dee2e6;
@@ -47,6 +52,9 @@
     font-weight: 300;
     background-color: inherit; }
 
+/********CAJA BIG FIN**********/
+/**************
+NAV BAR********/
 li, a, button {
   font-weight: 500;
   font-size: 16px;
@@ -95,6 +103,8 @@ button:hover {
   transform: scale(1.1);
   transition: 0.2s ease; }
 
+/*******FIN NAV BAR********/
+/*******FOOTER*******/
 .footer {
   display: flex;
   align-items: bottom;
@@ -108,6 +118,7 @@ button:hover {
     width: 20px;
     height: 20px; }
 
+/*******FIN FOOTER*********/
 h2 {
   text-align: center;
   margin-bottom: 70px;
@@ -134,6 +145,9 @@ h2 {
     color: #212529;
     font-size: 16px; }
 
+/*********
+BOX TIENDA
+*********/
 .boxTienda {
   display: flex;
   justify-content: space-around;
@@ -189,6 +203,10 @@ h2 {
     color: #212529;
     background-color: #e9ecef; }
 
+/*************
+FIN BOX TIENDA 
+*************/
+/******RESPONSIVE TIENDA********/
 @media screen and (max-width: 420px) {
   .boxTienda {
     display: grid; }
@@ -213,12 +231,20 @@ h2 {
   .boxTienda {
     display: grid; } }
 
+/*****FIN RESPONSIVE TIENDA*/
+/*****RESPONSIVE PRODUCTOS***/
 @media screen and (max-width: 420px) {
   .containerProduc {
     display: grid; }
   div {
     width: 100% !important; } }
 
+/****************FIN
+RESPONSIVE PRODUCTOS
+*******************/
+/***************
+RESPONSIVE INDEX
+***************/
 @media screen and (max-width: 420px) {
   .divGaleria {
     display: grid; }
@@ -237,7 +263,10 @@ h2 {
     position: absolute;
     top: 700px; } }
 
-/***********
+/*************
+FIN RESPONSIVE 
+INDEX********/
+/******************
 RESPONSIVE NOSOTROS
 ******************/
 @media screen and (max-width: 420px) {
@@ -257,6 +286,9 @@ RESPONSIVE NOSOTROS
       height: 250px !important;
       justify-content: center; } }
 
+/**********************
+FIN RESPONSIVE NOSOTROS
+**********************/
 /* PARRAFO  ********
 ********************
 ********************/

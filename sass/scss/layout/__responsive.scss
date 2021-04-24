@@ -1,4 +1,4 @@
-  //responsive tienda
+/******RESPONSIVE TIENDA********/
 
   @media screen and (max-width: 420px){
     .boxTienda{
@@ -34,9 +34,10 @@
     
   }
 
-//fin responsive tienda
+/*****FIN RESPONSIVE TIENDA*/
 
-//responsive productos
+
+/*****RESPONSIVE PRODUCTOS***/
 
 @media screen and(max-width: 420px){
   .containerProduc{
@@ -47,9 +48,15 @@
   }
 }
 
-//fin responsive productos
+/****************FIN
+RESPONSIVE PRODUCTOS
+*******************/
 
-//responsive index
+
+
+/***************
+RESPONSIVE INDEX
+***************/
 
 @media screen and(max-width: 420px){
   .divGaleria{
@@ -76,8 +83,13 @@
     top: 700px;
   }
 }
+/*************
+FIN RESPONSIVE 
+INDEX********/
 
-/***********
+
+
+/******************
 RESPONSIVE NOSOTROS
 ******************/
 
@@ -113,3 +125,7 @@ RESPONSIVE NOSOTROS
     }
   }
 }
+
+/**********************
+FIN RESPONSIVE NOSOTROS
+**********************/
