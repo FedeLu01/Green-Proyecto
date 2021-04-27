@@ -2,12 +2,9 @@
 
   @media screen and (max-width: 420px){
     .boxTienda{
-      display: grid;
-    }
-    div{
-      width: auto;
+      display: flex;
       height: auto;
-      margin-top: 20px;
+      width: 420px;
     }
   
     .encabTienda{
@@ -25,13 +22,6 @@
         display: grid;
       }
     }
-  }
-  
-  @media screen and (max-width: 1024px){
-    .boxTienda{
-      display: grid;
-    }
-    
   }
 
 /*****FIN RESPONSIVE TIENDA*/
