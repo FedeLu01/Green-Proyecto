@@ -5,6 +5,18 @@
       display: flex;
       height: auto;
       width: 420px;
+      flex-direction: column;
+      
+      img
+      {
+        height: 340px;
+        width: 340px;
+      }
+
+      div 
+      {
+        margin-top: 5%;
+      }
     }
   
     .encabTienda{
