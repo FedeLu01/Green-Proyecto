@@ -20,9 +20,15 @@
   background-color: #495057;
   box-sizing: border-box;
 }
+
 body
 {
-  padding: 0.7%;
+  margin: 0.7%;
+  word-spacing: 0.30em;
+  p 
+  {
+    padding: 3px;
+  }
 }
 
 

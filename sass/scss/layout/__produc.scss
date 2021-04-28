@@ -7,28 +7,37 @@ h2{
 
 .containerProduc{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
+    margin-top: 2.5%;
+
     img{
         
-        width: 100%;
-        height: 470px;
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
     }
     div{
-        background-color: #dee2e6;
-        width: 25%;
-        border: 2px solid #212529;
+        padding: 1%;
+        border-radius: 10%;
+        background-color: #e9ecef;
+        box-shadow: 8px 5px 5px black;
+        margin: 1%;
     }
+
     h3{ 
-        color: #212529;
-        background-color: #dee2e6;
-        font-size: 20px;
-       
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px;
+        margin: 1%;
+        background-color: #e9ecef; 
     }
+
     p{
-        background-color: #dee2e6;
-        color: #212529;
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 400;
+        
+        background-color: #e9ecef;
     }
 
 

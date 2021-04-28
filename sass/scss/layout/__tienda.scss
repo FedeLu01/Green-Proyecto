@@ -8,8 +8,7 @@ BOX TIENDA
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  padding: 3%;
-  margin: 2%;
+  margin-top: 2.5%;
   text-align: center;
 
   img
@@ -23,6 +22,9 @@ BOX TIENDA
   {
     padding: 1%;
     border-radius: 10%;
+    background-color: #e9ecef;
+    box-shadow: 8px 5px 5px black;
+    margin: 1%;
   }
 
   h4
@@ -46,13 +48,6 @@ BOX TIENDA
   {
     border: 2px solid black;
     border-radius: 50%;
-  }
-
-  div
-  {
-    background-color: #e9ecef;
-    box-shadow: 8px 5px 5px black;
-    margin: 1%;
   }
 
   button:hover
