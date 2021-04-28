@@ -270,7 +270,9 @@ FIN IMG****/
 .boxReceta {
   text-align: center;
   display: grid;
-  color: #212529; }
+  color: #212529;
+  padding: 2%;
+  margin: 2%; }
   .boxReceta .boxReceta__img {
     display: flex;
     justify-content: space-around; }
@@ -298,6 +300,7 @@ FIN IMG****/
     color: #212529;
     font-size: 32px; }
   .boxReceta .boxReceta__ingredientes ul li {
+    list-style-type: none;
     background-color: #dee2e6;
     color: #212529;
     font-size: 24px; }

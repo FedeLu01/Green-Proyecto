@@ -5,6 +5,8 @@
     text-align: center;
     display: grid;
     color: #212529;
+    padding: 2%;
+    margin: 2%;
 
         .boxReceta__img
         {
@@ -56,6 +58,7 @@
             {
                 li
                 {
+                    list-style-type: none;
                     background-color: #dee2e6;
                     color: #212529;
                     font-size: 24px;
