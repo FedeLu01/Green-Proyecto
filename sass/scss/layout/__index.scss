@@ -42,9 +42,11 @@ DIV GALERIA
     margin-top: 30px;
     width: auto;
     height: 240px;
+    border-radius: 5px;
     .cajaBig__btn{
       padding: 15px 40px;
-      a{
+      span 
+      {
         background-color: #0088a9;
       }
     }
@@ -61,7 +63,8 @@ DIV GALERIA
       background-color: inherit;
     }
     .cajaBig__txt{
-      grid-area: txt;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
       font-size: 60px;
       font-weight: 300;
       background-color: inherit;

@@ -50,6 +50,19 @@
 
 /*****RESPONSIVE PRODUCTOS***/
 
+@media screen and(max-width: 1240px){
+
+  .containerProduc
+  {
+    display: grid;
+
+    p 
+    {
+      border-radius: 30%;
+    }
+  }
+}
+
 @media screen and(max-width: 420px){
   .containerProduc{
     display: flex;
@@ -208,3 +221,17 @@ RESPONSIVE RECETAS*****/
 /********************
 FIN RESPONSIVE RECETAS
 **********************/
+
+/*********************
+RESPONSIVE FOOTER*****/
+
+@media screen and(max-width: 440px) {
+
+.footer 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+}

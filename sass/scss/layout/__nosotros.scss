@@ -9,6 +9,11 @@
     text-align: center;
     .parrafNosotros{
         text-align: center;
+        .primerParraf
+        {
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
         p{
             font-size: 22px;
             background-color: #e9ecef;
@@ -18,7 +23,8 @@
             font-weight: bold;
             font-size: 26px;
             color: #212529;
-            
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
         }
     }
 }
@@ -39,6 +45,12 @@
         width: 450px;
         height: 450px;
         border-radius: 50%;
+    }
+
+    img:hover
+    {
+        box-shadow: 8px 8px 8px #d8f3dc;
+        transition: all ease 1s;
     }
 }
 
