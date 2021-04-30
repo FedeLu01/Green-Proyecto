@@ -1,5 +1,14 @@
 /******RESPONSIVE TIENDA********/
 
+  @media screen and (max-width: 1240px) {
+    .boxTienda
+    {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
   @media screen and (max-width: 420px){
     .boxTienda{
       display: flex;
@@ -79,6 +88,30 @@ RESPONSIVE PRODUCTOS
 /***************
 RESPONSIVE INDEX
 ***************/
+
+@media screen and(max-width: 1240px){
+  .divGaleria
+  {
+    display: flex;
+    flex-wrap: wrap;
+  
+    .divGaleria__right:hover
+    {
+      transform: scale(1.1);
+    }
+
+    .divGaleria__left:hover
+    {
+      transform: scale(1.1);
+    }
+
+    .divGaleria__center:hover
+    {
+      transform: scale(1.1);
+    }
+
+  }
+}
 
 @media screen and(max-width: 420px){
   .divGaleria{

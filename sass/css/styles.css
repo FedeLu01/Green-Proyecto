@@ -139,7 +139,7 @@ button:hover {
 h2 {
   text-align: center;
   margin-bottom: 70px;
-  font-size: 40px;
+  font-size: 60px;
   color: #d8f3dc; }
 
 .containerProduc {
@@ -273,6 +273,8 @@ FIN IMG****/
   color: #212529;
   padding: 2%;
   margin: 2%; }
+  .boxReceta h2 {
+    font-size: 60px; }
   .boxReceta .boxReceta__img {
     display: flex;
     justify-content: space-around; }
@@ -282,9 +284,10 @@ FIN IMG****/
       margin-bottom: 50px;
       border-radius: 50%; }
     .boxReceta .boxReceta__img img:hover {
-      transform: scale(1.3);
+      transform: scale(1.15);
       transition: all ease 0.7s;
-      border: 10px solid #dee2e6; }
+      border: 10px solid #dee2e6;
+      overflow: hidden; }
   .boxReceta .boxReceta__intro {
     justify-content: center; }
     .boxReceta .boxReceta__intro p {
@@ -294,7 +297,9 @@ FIN IMG****/
     .boxReceta .boxReceta__intro h4 {
       color: #212529;
       background-color: #dee2e6;
-      font-size: 44px; }
+      font-size: 44px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; }
   .boxReceta .boxReceta__ingredientes h6 {
     background-color: #dee2e6;
     color: #212529;
@@ -315,6 +320,12 @@ FIN IMG****/
 
 /*******FIN BOX RECETA*****/
 /******RESPONSIVE TIENDA********/
+@media screen and (max-width: 1240px) {
+  .boxTienda {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; } }
+
 @media screen and (max-width: 420px) {
   .boxTienda {
     display: flex;
@@ -364,6 +375,17 @@ RESPONSIVE PRODUCTOS
 /***************
 RESPONSIVE INDEX
 ***************/
+@media screen and (max-width: 1240px) {
+  .divGaleria {
+    display: flex;
+    flex-wrap: wrap; }
+    .divGaleria .divGaleria__right:hover {
+      transform: scale(1.1); }
+    .divGaleria .divGaleria__left:hover {
+      transform: scale(1.1); }
+    .divGaleria .divGaleria__center:hover {
+      transform: scale(1.1); } }
+
 @media screen and (max-width: 420px) {
   .divGaleria {
     display: grid; }
