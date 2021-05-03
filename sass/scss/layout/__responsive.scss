@@ -133,7 +133,7 @@ RESPONSIVE INDEX
       visibility: hidden;
     }
     .divGaleria__right{
-      visibility: hidden;
+      display: grid;
     }
     .divGaleria__center{
       position: absolute;
@@ -143,12 +143,13 @@ RESPONSIVE INDEX
     }
   }
 
-  .cajaBig{
-    text-align: center;
-    align-items: center;
+  .cajaBig
+  {
+    display: flex;
+    justify-content: center;
     align-content: center;
-    position: absolute;
-    top: 700px;
+    height: 330px;
+    
   }
 }
 /*************
@@ -225,9 +226,9 @@ FIN RESPONSIVE RECETAS
 /*********************
 RESPONSIVE FOOTER*****/
 
-@media screen and(max-width: 440px) {
+@media screen and(max-width: 420px) {
 
-.footer 
+.containerFooter 
 {
   display: flex;
   flex-direction: column;
@@ -235,3 +236,6 @@ RESPONSIVE FOOTER*****/
   align-content: center;
 }
 }
+
+/****************
+FIN RESP FOOTER**/

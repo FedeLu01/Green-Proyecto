@@ -29,35 +29,54 @@ DIV GALERIA
 /******DIV GALERIA FIN********/
 /*****CAJA BIG**********/
 .cajaBig {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #dee2e6;
-  margin-top: 30px;
-  width: auto;
-  height: 240px;
-  border-radius: 5px; }
-  .cajaBig .cajaBig__btn {
-    padding: 15px 40px; }
-    .cajaBig .cajaBig__btn span {
-      background-color: #0088a9; }
-  .cajaBig p {
-    margin-bottom: 10px; }
-  .cajaBig .cajaBig__parraf--color {
-    font-size: 25px;
-    background-color: inherit; }
-  .cajaBig .cajaBig__parraf {
-    font-size: 29px;
-    background-color: inherit; }
-  .cajaBig .cajaBig__txt {
-    border-top-left-radius: 5px;
+  display: flex;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  height: 200px;
+  letter-spacing: 2px; }
+  .cajaBig .cajaBig__title {
+    background-color: inherit;
     border-top-right-radius: 5px;
-    font-size: 60px;
-    font-weight: 300;
-    background-color: inherit; }
+    border-top-left-radius: 5px; }
+    .cajaBig .cajaBig__title h1 {
+      font-size: 60px;
+      font-weight: 300;
+      background-color: inherit;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px; }
+  .cajaBig .cajaBig__parraf {
+    background-color: inherit;
+    padding: 10px; }
+    .cajaBig .cajaBig__parraf span {
+      background-color: inherit; }
+  .cajaBig .cajaBig__btn {
+    background-color: #e9ecef; }
+    .cajaBig .cajaBig__btn a {
+      background-color: inherit; }
+    .cajaBig .cajaBig__btn button {
+      background-color: #0088a9;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      text-decoration: none;
+      text-align: center;
+      padding: 14px 28px;
+      color: #e9ecef;
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500; }
+    .cajaBig .cajaBig__btn button:hover {
+      background-color: rgba(0, 136, 169, 0.8);
+      transform: scale(1.1); }
 
 /********CAJA BIG FIN**********/
 /**************
 NAV BAR********/
-li, a, button {
+li, a {
   font-weight: 500;
   font-size: 18px;
   color: #ecf0f1;
@@ -85,17 +104,6 @@ header {
     .nav__links li a:hover {
       color: #0088a9; }
 
-button {
-  padding: 9px 25px;
-  background-color: #0088a9;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s; }
-
-button:hover {
-  background-color: rgba(0, 136, 169, 0.8); }
-
 .logo {
   width: 150px;
   height: 70px;
@@ -107,35 +115,20 @@ button:hover {
 
 /*******FIN NAV BAR********/
 /*******FOOTER*******/
-.footer {
+.containerFooter {
   display: flex;
-  align-items: bottom;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
+  align-items: baseline;
   margin-top: 10%; }
-  .footer .footer__txt {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    color: #f8f9fa;
-    font-weight: 200; }
-  .footer .footer__insta {
-    font-size: 16px;
-    color: #f8f9fa;
-    font-weight: 200;
-    align-content: center; }
-  .footer .footer__img {
-    width: 20px;
-    height: 20px; }
-  .footer .footer__dev {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    font-size: 16px;
-    color: #f8f9fa;
-    font-weight: 200; }
-    .footer .footer__dev img {
-      width: 22px;
-      height: 22px; }
+  .containerFooter .containterFooter__green {
+    font-size: 18px;
+    color: #e9ecef;
+    align-items: center; }
+  .containerFooter .containerFooter__dev {
+    justify-content: flex-end; }
+  .containerFooter img {
+    height: 30px;
+    width: 30px; }
 
 /*******FIN FOOTER*********/
 h2 {
@@ -180,6 +173,22 @@ BOX TIENDA
   align-content: center;
   margin-top: 2.5%;
   text-align: center; }
+  .boxTienda button {
+    background-color: #0088a9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 28px;
+    color: #e9ecef;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500; }
+  .boxTienda button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+    transform: scale(1.1); }
   .boxTienda img {
     width: 370px;
     height: 370px;
@@ -408,17 +417,16 @@ RESPONSIVE INDEX
     .divGaleria .divGaleria__left {
       visibility: hidden; }
     .divGaleria .divGaleria__right {
-      visibility: hidden; }
+      display: grid; }
     .divGaleria .divGaleria__center {
       position: absolute; }
     .divGaleria img {
       width: 100%; }
   .cajaBig {
-    text-align: center;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     align-content: center;
-    position: absolute;
-    top: 700px; } }
+    height: 330px; } }
 
 /*************
 FIN RESPONSIVE 
@@ -461,13 +469,15 @@ FIN RESPONSIVE RECETAS
 **********************/
 /*********************
 RESPONSIVE FOOTER*****/
-@media screen and (max-width: 440px) {
-  .footer {
+@media screen and (max-width: 420px) {
+  .containerFooter {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center; } }
 
+/****************
+FIN RESP FOOTER**/
 * {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
