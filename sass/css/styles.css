@@ -51,7 +51,8 @@ DIV GALERIA
     background-color: inherit;
     padding: 10px; }
     .cajaBig .cajaBig__parraf span {
-      background-color: inherit; }
+      background-color: inherit;
+      font-size: 18px; }
   .cajaBig .cajaBig__btn {
     background-color: #e9ecef; }
     .cajaBig .cajaBig__btn a {
@@ -490,3 +491,17 @@ body {
   word-spacing: 0.30em; }
   body p {
     padding: 3px; }
+
+/******************
+BARRA SCROLL******/
+::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-track {
+  background: #495057; }
+
+::-webkit-scrollbar-thumb {
+  background: #d8f3dc; }
+
+/******************
+FIN BARRA SCROLL**/
