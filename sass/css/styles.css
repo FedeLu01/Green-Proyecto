@@ -174,7 +174,7 @@ BOX TIENDA
   align-content: center;
   margin-top: 2.5%;
   text-align: center; }
-  .boxTienda button {
+  .boxTienda a {
     background-color: #0088a9;
     border: none;
     border-radius: 50px;
@@ -187,9 +187,8 @@ BOX TIENDA
     margin-top: 10px;
     font-size: 18px;
     font-weight: 500; }
-  .boxTienda button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-    transform: scale(1.1); }
+  .boxTienda a:hover {
+    background-color: rgba(0, 136, 169, 0.8); }
   .boxTienda img {
     width: 370px;
     height: 370px;
