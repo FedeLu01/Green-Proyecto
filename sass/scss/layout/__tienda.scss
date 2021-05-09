@@ -11,7 +11,14 @@ BOX TIENDA
   margin-top: 2.5%;
   text-align: center;
 
-  a
+  a 
+  {
+    text-decoration: none;
+    background-color: none;
+    background: none;
+  }
+
+  button
   {
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -27,7 +34,7 @@ BOX TIENDA
     font-weight: 500;
   }
 
-  a:hover
+  button:hover
   {
     background-color: rgba(0, 136, 169, 0.8);
   }
