@@ -414,6 +414,10 @@ RESPONSIVE INDEX
     .divGaleria .divGaleria__center:hover {
       transform: scale(1.1); } }
 
+@media screen and (max-width: 780px) {
+  .cajaBig {
+    height: 220px; } }
+
 @media screen and (max-width: 420px) {
   .divGaleria {
     display: grid; }
@@ -429,7 +433,7 @@ RESPONSIVE INDEX
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 330px; } }
+    height: 290px; } }
 
 /*************
 FIN RESPONSIVE 
