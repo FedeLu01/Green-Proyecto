@@ -10,4 +10,3 @@ let productos = [{pack: 1, precio: 230}, {pack: 2, precio: 330}, {pack: 3, preci
 
 
 
-
