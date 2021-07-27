@@ -15,6 +15,7 @@
         <a href="index.html"><img src="img/logo1.jpg" alt="logo" class="logo"></a>
         <nav>
             <ul class="nav__links">
+                <li><img id="carrito" src="img/carrito-de-compras.png" alt=""></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="recetas.html">Recetas</a></li>
@@ -37,6 +38,7 @@
         </ul>
     </div>
 
+
 <div class="boxTienda">
     <div class="boxTienda__1">
         <img src="img/4enc.jpg" alt="pack por 4">
@@ -45,7 +47,7 @@
         <br>
         <p>Pack de 4 hamburguesas (sabores a elección)</p>
         <br>
-        <button id="btn1">$230</button>
+        <button id="btn1" class="agregar-carrito">$230</button>
     </div>
 
     <div class="boxTienda__2">
@@ -55,7 +57,7 @@
         <br>
         <p>Pack de 6 hamburguesas (sabores a elección)</p>
         <br>
-        <button id="btn2">$330</button>
+        <button id="btn2" class="agregar-carrito">$330</button>
     </div>
 
     <div class="boxTienda__3">
@@ -65,7 +67,7 @@
         <br>
         <p>Pack de 10 hamburguesas (sabores a elección)</p>
         <br>
-        <button id="btn3">$540</button>
+        <button id="btn3" class="agregar-carrito">$540</button>
     </div>
 
     <div class="boxTienda__4">
@@ -75,11 +77,9 @@
         <br>
         <p>Pack de 15 hamburguesas (sabores a elección)</p>
         <br>
-        <button id="btn4">$720</button>
+        <button id="btn4" class="agregar-carrito">$720</button>
     </div>
 </div>
-
-
 
 <footer>
     <div class="containerFooter">
@@ -97,6 +97,9 @@
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/carrito.js"></script>
+<script src="js/compra.js"></script>
+<script src="js/pedido.js"></script>
 </body>
 </html>

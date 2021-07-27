@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nombre": "pack por 4",
+        "precio": 230
+    },
+    {
+        "id": 2,
+        "nombre": "pack por 6",
+        "precio": 330
+    },
+    {
+        "id": 3,
+        "nombre": "pack por 10",
+        "precio": 540
+    },
+    {
+        "id": 4,
+        "nombre": "pack por 15",
+        "precio": 720
+    }
+]
